@@ -1,6 +1,8 @@
 
 use "lib:kyotocabinet"
 
+use @kcinf[F64]()
+
 primitive _Lib
   fun malloc[A](size: USize): Pointer[A] =>
     """
